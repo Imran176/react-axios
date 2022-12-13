@@ -1,16 +1,12 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-// import axios from "axios.jsx";
 
 import "../App.css";
-
-// const axios = require('axios');
 
 const AxiosWithPromises = () => {
   const [myData, setMyData] = useState([]);
   const [isError, setIsError] = useState("");
 
-  // using Promises
   useEffect(() => {
     axios
       .get("https://jsonplaceholder.typicode.com/posts")
