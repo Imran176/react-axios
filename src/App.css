@@ -1,5 +1,18 @@
 .App {
+  padding: 2rem;
   text-align: center;
+}
+
+.grid {
+  max-width: 100rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.6rem;
+}
+
+.card {
+  padding: 2em;
+  border: 1px solid #888;
 }
 
 .App-logo {
