@@ -16,8 +16,6 @@ const AxiosWithPromises = () => {
       .catch((error) => setIsError(error.message));
   }, []);
 
-  console.log("myData --->", myData);
-
   return (
     <>
       <h1>React + Axios with Promises</h1>
